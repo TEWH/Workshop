@@ -1,0 +1,62 @@
+www.github.com/TEWH
+
+--------------------- VOCABULARY ----------------------
+Version Control:  software allowing a group to work on the same files at the same time
+Repository:  aka 'repo' is the collection of files for a particular GitHub project
+Directory:  think of this as a particular folder e.g. Documents/subDirectory
+
+
+------------------- TERMINAL COMMANDS ------------------
+To open your terminal
+  Windows:  run - cmd - hit enter
+  Mac:  utilities - applications - utilities terminal
+
+  cd:  change directory (e.g. cd Documents)
+      cd .. takes you to a higher directory
+
+  dir (windows) ls (mac/linux)
+      shows you the contents in a directory
+
+
+------------------ GIT COMMANDS ------------------------
+
+git clone www.github.com/LinkToRepo
+    copies the whole repo in the current directory
+
+git status
+    save your file!!
+    shows what is different between you and the online repo
+
+git add
+    adds any new files and changes
+    git add -A adds everything
+
+git commit -m "enter your commit notes"
+    locks changes into the repo, but is not synced with the online repo yet
+    ***If you don't include a commit message, you will be prompted to create one in a file editor***
+        esc :wp enter     exits the editor
+
+git push
+    pushes up to github.com
+    ALWAYS pull before you push
+
+git pull
+    pulls down from github.com
+
+
+Order of GitHub commands
+1) pull
+2) status
+3) add
+4) commit
+5) push
+
+------------------ MERGE CONFLICTS -------------------
+
+This happens when different people modify the same content
+Communicate with your team to avoid this
+There the different versions will both show in the repo, and will need to be manually resolved
+HEAD shows your version of the merge conflict
+
+
+Good luck!!! :D
