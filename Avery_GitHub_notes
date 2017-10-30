@@ -4,6 +4,8 @@ www.github.com/TEWH
 Version Control:  software allowing a group to work on the same files at the same time
 Repository:  aka 'repo' is the collection of files for a particular GitHub project
 Directory:  think of this as a particular folder e.g. Documents/subDirectory
+Forking:  creates a personal version of the repo on your online github account
+Pull request:  when you fork a repo, a pull request asks the owner to add your updates to the master branch
 
 
 ------------------- TERMINAL COMMANDS ------------------
